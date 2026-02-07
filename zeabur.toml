@@ -1,0 +1,6 @@
+[service]
+name = "antigravity-manager"
+
+[[build]]
+context = "."
+dockerfile = "docker/Dockerfile"
